@@ -1,30 +1,21 @@
 let userMoney = 10.00;
 let item = "Candy"
 let price = 1.00;
-
-if (userMoney >= price) {
-    let change = userMoney - price;
-  
-    console.log("you bought " + item + " for $" + price + ".");
-    console.log("your change is $" + change + ".");
-
-} else {
-    console.log("insufficient funds. Please add" + price - change);
-
-}
-   
 let itemChips = "Chips"
 let chipPrice = 2.00;
+let choice = itemSoda 
+let choicePrice = sodaPrice
+let itemSoda = "soda"
+let sodaPrice = 2.50
 
-if (userMoney >= price) {
-    let change = userMoney - price;
+if (userMoney >= choicePrice) {
+    let change = userMoney - choicePrice;
   
-    console.log("you bought " + itemChips + " for $" + price + ".");
+    console.log("you bought " + choice + " for $" + choicePrice + ".");
     console.log("your change is $" + change + ".");
 
 } else {
-    console.log("insufficient funds. Please add" + price - change);
+    console.log("insufficient funds. Please add" + choicePrice - change);}
 
-}
 
 
